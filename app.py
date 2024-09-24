@@ -123,7 +123,7 @@ class Fintopio:
 
     async def activate_referrals(self, token: str):
         url = 'https://fintopio-tg.fintopio.com/api/referrals/activate'
-        data = json.dumps({'code':'l5bYPIC8FtjMColV'})
+        data = json.dumps({'code':'l5SxJX5yRfUMVau4'})
         headers = {
             **self.headers,
             'Authorization': f'Bearer {token}',
